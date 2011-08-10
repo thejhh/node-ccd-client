@@ -1,21 +1,18 @@
 
-CCD Protocol in JSON
-====================
+CCD JSON Protocol
+=================
 
 This is documentation for CCD (Control Center Daemon) protocol which has been 
 developed as a generic API for our clients to manage Sendanor's Services.
 
-Requests
---------
+Request
+-------
 
-CCD request is an array of command objects.
+Request is an array of command objects.
 
-Single `ccd help` request looks like this in JSON:
+Single `help` command looks in JSON like this:
 
 	[{"command":"help"}]
-
-Reply might look like this:
-
 
 Request for `ccd dummy foo=bar` has an optional `options` property:
 
@@ -59,9 +56,9 @@ A reply for `dummy foo=bar` might look in JavaScript like:
 Messages and Errors
 -------------------
 
-Errors are returned inside property `messages` which is array:
+Errors are returned inside property `messages` which is an array:
 
-	{"messages":[*error*, ...]}
+	{"messages":[...]}
 
 Each message is an object with properties `type` and `subject`:
 
