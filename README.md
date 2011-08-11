@@ -15,7 +15,7 @@ install ccd-client`.
 Documentation
 -------------
 
-* [CCD's JSON Protocol](https://github.com/jheusala/node-ccd-client/blob/master/docs/protocol.md)
+* [Protocol: Raw HTTPS-JSON Requests Explained](https://github.com/jheusala/node-ccd-client/blob/master/docs/protocol.md)
 * [Command Reference for ccd.sendanor.com](https://ccdmanual.sendanor.com)
 
 License
