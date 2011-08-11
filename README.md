@@ -1,10 +1,12 @@
 
-Sendanor's API client for Node.js
-=================================
+CCD client for Node.js
+======================
 
 Description
 -----------
-This is a client module for [Sendanor's CCD API](https://www.sendanor.fi).
+
+This is a client module for [Sendanor's](https://www.sendanor.fi) API. CCD 
+stands for Control Center Daemon.
 
 Installation
 ------------
