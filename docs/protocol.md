@@ -73,3 +73,11 @@ Each message is an object with properties `type` and `subject`:
 Full JSON reply for Internal Error might look like this:
 
 	{"messages":[{"type":"error","subject":"Internal Error"}]}
+
+API Command Reference
+---------------------
+
+CCD has been designed to provide the API reference to all commands 
+automatically from the server itself. The user can use the `help` command or 
+[our web manual](https://ccdmanual.sendanor.com/) to access the API reference 
+documentation.
