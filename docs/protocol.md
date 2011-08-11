@@ -56,7 +56,7 @@ A response for `dummy foo=bar` might look in JavaScript like:
 
 ...and as a CCD-response:
 
-	{"records":[{"key1":"value1"},{"key2":{"foo":"bar"}}]}
+	{"records":[{"command":"dummy"},{"options":{"foo":"bar"}}]}
 
 ### Messages and Errors
 
