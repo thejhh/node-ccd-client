@@ -24,7 +24,7 @@ Request for `dummy foo=bar` has an optional `options` property:
 
 	[{"command":"dummy","options":{"foo":"bar"}}]
 
-After a successful `login` command, each command is required to have a `session_id` property. The value is returned from the `login` command.
+After a successful `login` command, each command is required to have a `session_id` property. The value is retrieved from the `login` command.
 
 	[{"session_id":"","command":"dummy","options":{"foo":"bar"}}]
 
