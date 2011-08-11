@@ -12,6 +12,12 @@ Installation
 Simplest way to install is to use [npm](http://npmjs.org/), just simply `npm 
 install ccd-client`.
 
+Documentation
+-------------
+
+* [CCD's JSON Protocol](https://github.com/jheusala/node-ccd-client/blob/master/docs/protocol.md)
+* [Command Reference for ccd.sendanor.com](https://ccdmanual.sendanor.com)
+
 License
 -------
 
