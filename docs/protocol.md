@@ -8,7 +8,7 @@ developed as a generic API for our clients to manage Sendanor's Services.
 Request
 -------
 
-Requests are standard HTTP POST requests to `https://ccd.sendanor.com/` with 
+Requests are standard HTTP POST requests to `https://ccd.sendanor.com/ccd.fcgi` with 
 request body in JSON format and `Content-Type` set as `application/json`.
 
 Request body
